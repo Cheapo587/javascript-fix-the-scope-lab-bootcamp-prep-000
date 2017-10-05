@@ -11,7 +11,7 @@ function yourAnimal() {
 
   //solution: create a shadow variable animal assigned to the string cat
   var animal = cat
-  
+
   return animal
 }
 
