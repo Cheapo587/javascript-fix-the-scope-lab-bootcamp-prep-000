@@ -16,10 +16,13 @@ function yourAnimal() {
 }
 
 function add2(n) {
+  const two = 2
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+
+  //solution: move the const variable declaration before the return statement
+  //const two = 2; declaration was originally here, and anything after the semicolon was added
 }
 
 var funkyFunction = function() {
