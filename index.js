@@ -22,9 +22,9 @@ function add2(n) {
   //move the const declaration before the return statement
 }
 
-var funkyFunction = function() {
-  theFunk = "FUNKY!"
-  return theFunk = function() {
+var funkyFunction = outerFunction() {
+
+  return theFunk = innerFunction() {
     return theFunk
   }
 }
