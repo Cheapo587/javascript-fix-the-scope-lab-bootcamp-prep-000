@@ -36,4 +36,5 @@ var funkyFunction = function() {
 
 var theFunk = funkyFunction()
 
-funkyFunction()
+var value = theFunk
+theFunk = value
